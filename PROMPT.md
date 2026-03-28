@@ -56,13 +56,16 @@ Create a file named `YYYY-MM-DD-HH00.md` (Pacific time) with this structure:
 ## [Source Name]
 
 ### [Story Title](link)
-[1-2 sentence summary based on description]
-[Chinese (Simplified) translation of the summary]
+🇺🇸 [1-2 sentence English summary based on description]
+
+🇨🇳 [中文翻译：对应的中文摘要，1-2句]
 
 ---
 ```
 
-Group stories by source. Include all sources that returned data. Skip stories with empty titles. Always include a Chinese (Simplified) translation immediately after each English story summary.
+**IMPORTANT: Every news item MUST include both an English summary and a Chinese translation (中文翻译).** Use the 🇺🇸 flag for English and 🇨🇳 flag for Chinese. The Chinese translation should be a natural, fluent translation of the English summary, not a word-for-word translation.
+
+Group stories by source. Include all sources that returned data. Skip stories with empty titles.
 
 ## Step 4: Commit and push to GitHub
 Since the repo is public, clone it first, then try to push:
